@@ -257,8 +257,8 @@
     <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Editor\Activation\ActivationTrackInspector.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Editor\Manipulators\Utils\ManipulatorsUtils.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Editor\Extensions\AnimationTrackExtensions.cs" />
-    <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Editor\Manipulators\EditMode.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Editor\Window\WindowConstants.cs" />
+    <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Editor\Manipulators\EditMode.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Editor\treeview\Snapping\ISnappable.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Editor\treeview\TimelineDataSource.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Editor\Animation\AnimationOffsetMenu.cs" />
@@ -606,6 +606,12 @@
     <Reference Include="Unity.VisualScripting.YamlDotNet">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
     </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>Assets\Photon\PhotonLibs\WebSocket\websocket-sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Photon3Unity3D">
+      <HintPath>Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
     </Reference>
@@ -623,12 +629,6 @@
     </Reference>
     <Reference Include="ReportGeneratorMerged">
       <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.2.2\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
-    </Reference>
-    <Reference Include="websocket-sharp">
-      <HintPath>Assets\Photon\PhotonLibs\WebSocket\websocket-sharp.dll</HintPath>
-    </Reference>
-    <Reference Include="Photon3Unity3D">
-      <HintPath>Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>

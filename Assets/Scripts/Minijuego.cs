@@ -2,17 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Minijuego : MonoBehaviour
+[CreateAssetMenu(fileName = "NuevoMinijuego", menuName = "MiniJuego")]
+public class Minijuego : ScriptableObject
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public int Id;
+    public string NombreScene;
+    //public List<Mejoras> Mejoras;
+    public int Puntaje;
+    public float Tiempo;
 }
