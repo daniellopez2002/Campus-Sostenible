@@ -1,0 +1,31 @@
+{
+  "project_info": {
+    "project_number": "366722205769",
+    "project_id": "campus-sostenible-uao",
+    "storage_bucket": "campus-sostenible-uao.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:366722205769:ios:e5dde18a7a834bfce41798",
+        "android_client_info": {
+          "package_name": "com.MedioMosaico.Campus-Sostenible"
+        }
+      },
+      "api_key": [
+        {
+          "current_key": "AIzaSyATk-EoibLe6Q0u7YEFZMaNQ4GrhgUfBSw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 0
+        },
+        "appinvite_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
