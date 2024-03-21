@@ -10,10 +10,10 @@ public class cambiarObjeto : MonoBehaviour
     public GameObject InicioOn;
     public GameObject IncioOff;
 
-    // Método para mostrar un objeto y apagar otro
+    // Mï¿½todo para mostrar un objeto y apagar otro
     public void MostrarYApagar1()
     {
-        // Verificar que ambos objetos estén asignados
+        // Verificar que ambos objetos estï¿½n asignados
         if (registroOn != null && registroOff != null)
         {
             // Mostrar el objeto que queremos mostrar
@@ -24,13 +24,13 @@ public class cambiarObjeto : MonoBehaviour
         }
         else
         {
-            Debug.LogError("¡Asegúrate de asignar los objetos en el inspector de Unity!");
+            Debug.LogError("ï¿½Asegï¿½rate de asignar los objetos en el inspector de Unity!");
         }
     }
 
     public void MostrarYApagar2()
     {
-        // Verificar que ambos objetos estén asignados
+        // Verificar que ambos objetos estï¿½n asignados
         if (InicioOn != null && IncioOff != null)
         {
             // Mostrar el objeto que queremos mostrar
@@ -41,7 +41,7 @@ public class cambiarObjeto : MonoBehaviour
         }
         else
         {
-            Debug.LogError("¡Asegúrate de asignar los objetos en el inspector de Unity!");
+            Debug.LogError("ï¿½Asegï¿½rate de asignar los objetos en el inspector de Unity!");
         }
     }
 }
