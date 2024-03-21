@@ -120,6 +120,8 @@
 -define:TIMELINE_FRAMEACCURATE
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/ExternalDependencyManager/Editor/1.2.179/Google.IOSResolver.dll"
+-r:"Assets/ExternalDependencyManager/Editor/1.2.179/Google.JarResolver.dll"
 -r:"Assets/ExternalDependencyManager/Editor/1.2.179/Google.PackageManagerResolver.dll"
 -r:"Assets/ExternalDependencyManager/Editor/1.2.179/Google.VersionHandlerImpl.dll"
 -r:"Assets/ExternalDependencyManager/Editor/Google.VersionHandler.dll"
