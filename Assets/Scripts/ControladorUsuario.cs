@@ -1,5 +1,5 @@
-using System.Collections;
 using System.Collections.Generic;
+using ExitGames.Client.Photon;
 using UnityEngine;
 using TMPro;
 using Photon.Pun;
@@ -17,11 +17,15 @@ public class ControladorUsuario : MonoBehaviourPunCallbacks
     [SerializeField] GameObject PanelUsuarios;
     [SerializeField] GameObject ItemUsuario;
 
+    private Usuario _Usuario;
+    private PhotonView _PV;
     private List<string> _Jugadores = new List<string>();
     private Dictionary<string, GameObject> _ItemsJugadores = new Dictionary<string, GameObject>();
 
     private void Start()
     {
+        _Usuario = GetComponent<Usuario>();
+        _PV = GetComponent<PhotonView>();
         SalaEsperaGO.SetActive(false);
         JoinGO.SetActive(true);
         ConnectToPhoton();
@@ -51,6 +55,9 @@ public class ControladorUsuario : MonoBehaviourPunCallbacks
 
     public void Desconectar()
     {
+        Dictionary<string, int> Players = PhotonNetwork.CurrentRoom.CustomProperties["Players"] as Dictionary<string, int>;
+        Players.Remove(_Usuario.NickName);
+        PhotonNetwork.CurrentRoom.SetCustomProperties(new Hashtable { { "Players", Players } });
         LeftRoom();
     }
 
@@ -58,19 +65,17 @@ public class ControladorUsuario : MonoBehaviourPunCallbacks
     {
         foreach (Player player in PhotonNetwork.PlayerList)
         {
-            if(player.NickName != "") AgregarJugador(player.NickName);
+            if(player.NickName != "") AgregarJugador(player);
         }
     }
-    void AgregarJugador(string jugador)
+    void AgregarJugador(Player jugador)
     {
-        if (!_Jugadores.Contains(jugador))
+        if (!_Jugadores.Contains(jugador.NickName))
         {
-            _Jugadores.Add(jugador);
-            GameObject _item = ItemUsuario;
-            TMP_Text _textoUsuario = _item.GetComponentInChildren<TMP_Text>();
-            if (_textoUsuario != null) _textoUsuario.text = jugador;
-            Instantiate(_item, PanelUsuarios.transform);
-            _ItemsJugadores.Add(jugador, _item);
+            _Jugadores.Add(jugador.NickName);
+            GameObject _item = Instantiate(ItemUsuario, PanelUsuarios.transform);
+            _item.GetComponent<ItemUsuario>().SetUp(jugador.NickName);
+            _ItemsJugadores.Add(jugador.NickName, _item);
         }
     }
 
@@ -79,32 +84,36 @@ public class ControladorUsuario : MonoBehaviourPunCallbacks
         GameObject item = _ItemsJugadores[jugador];
         _ItemsJugadores.Remove(jugador);
         _Jugadores.Remove(jugador);
-        DestroyImmediate(item, true);
+        //DestroyImmediate(item, true);
 
     }
 
     //Photon Log´s
     public override void OnPlayerEnteredRoom(Player newPlayer)
     {
-        Debug.Log("Player = " + newPlayer.NickName);
-        AgregarJugador(newPlayer.NickName);
-
-
+        AgregarJugador(newPlayer);
     }
 
     public override void OnPlayerLeftRoom(Player otherPlayer)
     {
-        BorrarJugador(otherPlayer.NickName);
+        if (otherPlayer.NickName != "")
+        {
+            BorrarJugador(otherPlayer.NickName);
+        }
+        
         base.OnPlayerLeftRoom(otherPlayer);
     }
 
     void JoinRoom()
     {
-        // Intentar unirse a la sala por su nombre
-        PhotonNetwork.JoinRoom(CodigoInput.text);
-        // Asignar el nickname al jugador local
-        PhotonNetwork.LocalPlayer.NickName = NombreInput.text;
+        _Usuario.NickName = NombreInput.text;
+        Hashtable customPropierties = new Hashtable();
+        customPropierties.Add("Puntaje", _Usuario.Puntaje);
 
+        PhotonNetwork.JoinRoom(CodigoInput.text.ToUpper());
+
+        PhotonNetwork.LocalPlayer.NickName = _Usuario.NickName;
+        PhotonNetwork.LocalPlayer.SetCustomProperties(customPropierties);
     }
 
     void LeftRoom()
@@ -115,6 +124,9 @@ public class ControladorUsuario : MonoBehaviourPunCallbacks
     public override void OnJoinedRoom()
     {
         Debug.Log("Unido exitosamente a la sala: " + CodigoInput.text);
+        object list = PhotonNetwork.CurrentRoom.CustomProperties["Players"];
+        Debug.Log(list);
+        PhotonNetwork.CurrentRoom.SetCustomProperties(new Hashtable { { "Players", new Dictionary<string, int>() { { _Usuario.NickName, _Usuario.Puntaje } } } });
         // Aquí puedes implementar acciones adicionales una vez que te hayas unido a la sala
         TextoSala.text = PhotonNetwork.CurrentRoom.Name;
         ActualizarLista();

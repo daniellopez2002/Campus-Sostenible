@@ -2,11 +2,31 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "NuevoUsuario", menuName = "Usuario")]
-public class Usuario : ScriptableObject
+[RequireComponent(typeof(ControladorUsuario))]
+public class Usuario : MonoBehaviour
 {
-    string Nombre;
-    string NickName;
-    string Correo;
-    int Puntaje;
+    public string Nombre;
+    public string NickName;
+    public string Correo;
+    public int Puntaje;
+
+    Usuario _Usuario;
+
+    private void Awake()
+    {
+        if (_Usuario == null)
+        {
+            _Usuario = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
+
+    public void ReiniciarPuntaje()
+    {
+
+    }
 }
