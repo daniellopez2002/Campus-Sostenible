@@ -361,6 +361,7 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/Minijuegos/Minijuego 3/ControladorValvula.cs"
 "Assets/Scripts/Minijuegos/Minijuego 3/MoverObjeto.cs"
+"Assets/Scripts/Minijuegos/Minijuego 3/MoverObjetoY.cs"
 "Assets/Scripts/Minijuegos/Minijuego 3/SC_CountdownTimer.cs"
 -langversion:9.0
 
