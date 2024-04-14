@@ -31,17 +31,26 @@ public class ControladorLobbyTotem : MonoBehaviourPunCallbacks
     void AgregarGrupo(RoomInfo room)
     {
         string nombre = room.CustomProperties["Nombre"] as string;
+        ItemGrupo _itemGrupo = new ItemGrupo();
 
-        GameObject _item = Instantiate(ItemGrupo, PanelGrupos.transform);
-        _item.GetComponent<ItemGrupo>().SetUp(nombre);
+        if (!_nombresRoom.Contains(nombre))
+        {
+            GameObject _item = Instantiate(ItemGrupo, PanelGrupos.transform);
+            _itemGrupo = _item.GetComponent<ItemGrupo>();
+            _GruposItems.Add(nombre, _itemGrupo);
+        }
+        else
+        {
+
+        }
 
         Dictionary<string, int> jugadores = room.CustomProperties["Players"] as Dictionary<string, int>;
 
         foreach (KeyValuePair<string, int> player in jugadores)
         {
-            _item.GetComponent<ItemGrupo>().AgregarJugador(player.Key);
+            _itemGrupo.GetComponent<ItemGrupo>().AgregarJugador(player.Key);
         }
-        _GruposItems.Add(nombre, _item.GetComponent<ItemGrupo>());
+        
 
     }
     void ActualizarGrupo(RoomInfo room)
@@ -89,17 +98,29 @@ public class ControladorLobbyTotem : MonoBehaviourPunCallbacks
         Debug.Log("Lobby Monitor Connected");
     }
 
+    List<string> _nombresRoom = new List<string>();
+
     public override void OnRoomListUpdate(List<RoomInfo> roomList)
     {
         _GruposRooms  = roomList;
-        List<string> nombres = new List<string>();
+        
+
 
         //agregar room
         foreach (RoomInfo room in roomList)
         {
             string nombre = room.CustomProperties["Nombre"] as string;
-
-            AgregarGrupo(room);
+            if (!room.RemovedFromList)
+            {
+                _nombresRoom.Add(nombre);
+                AgregarGrupo(room);
+            }
+            else
+            {
+                _nombresRoom.Remove(nombre);
+                EliminarGrupo(nombre);
+            }
+            
             //if (_GruposItems.ContainsKey(nombre))
             //{
             //    //Actualizar ya esta creada
@@ -110,16 +131,16 @@ public class ControladorLobbyTotem : MonoBehaviourPunCallbacks
             //    //Crear
                 
             //}
-            nombres.Add(nombre);
+            
         }
 
-        foreach (string value in ListarGrupos())
-        {
-            if (!nombres.Contains(value))
-            {
-                EliminarGrupo(value);
-            }
-        }
+        //foreach (string value in ListarGrupos())
+        //{
+        //    if (!_nombresRoom.Contains(value))
+        //    {
+        //        EliminarGrupo(value);
+        //    }
+        //}
     }
 
 }
