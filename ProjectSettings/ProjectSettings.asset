@@ -155,7 +155,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: MedioMosaico.CampusSostenible
+    Android: MedioMosaico.CampusSostenibles
     Standalone: com.MedioMosaico.Campus-Sostenible
     iPhone: com.MedioMosaico.Campus-Sostenible
   buildNumber:
