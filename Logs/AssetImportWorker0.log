@@ -15,7 +15,7 @@ C:/Users/flore/Desktop/Campus-Sostenible
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50139
+50228
 Successfully changed project path to: C:/Users/flore/Desktop/Campus-Sostenible
 C:/Users/flore/Desktop/Campus-Sostenible
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/flore/Desktop/Campus-Sostenible
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [19120] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3464561243 [EditorId] 3464561243 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-824KJ6Q) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [17756] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2906296118 [EditorId] 2906296118 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-824KJ6Q) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [19120] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3464561243 [EditorId] 3464561243 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-824KJ6Q) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [17756] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2906296118 [EditorId] 2906296118 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-824KJ6Q) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 333.67 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 431.93 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.21f1 (1b156197d683)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Resources/UnitySubsystems
@@ -67,54 +67,54 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56888
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56472
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.049231 seconds.
+Registered in 0.025594 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 3395 ms
-Refreshing native plugins compatible for Editor in 346.64 ms, found 6 plugins.
+Android Extension - Scanning For ADB Devices 2185 ms
+Refreshing native plugins compatible for Editor in 277.47 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  7.358 seconds
+- Completed reload, in  8.043 seconds
 Domain Reload Profiling:
-	ReloadAssembly (7360ms)
-		BeginReloadAssembly (663ms)
+	ReloadAssembly (8044ms)
+		BeginReloadAssembly (557ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (5939ms)
-			LoadAssemblies (644ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (414ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (7098ms)
+			LoadAssemblies (549ms)
+			RebuildTransferFunctionScriptingTraits (2ms)
+			SetupTypeCache (318ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (134ms)
-			SetupLoadedEditorAssemblies (5157ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (6504ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3728ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (347ms)
-				BeforeProcessingInitializeOnLoad (8ms)
-				ProcessInitializeOnLoadAttributes (821ms)
-				ProcessInitializeOnLoadMethodAttributes (253ms)
+				InitializePlatformSupportModulesInManaged (5834ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (278ms)
+				BeforeProcessingInitializeOnLoad (11ms)
+				ProcessInitializeOnLoadAttributes (262ms)
+				ProcessInitializeOnLoadMethodAttributes (117ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (0ms)
+				EditorAssembliesLoaded (2ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.183818 seconds.
+Registered in 0.045683 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\flore\Desktop\Campus-Sostenible\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\flore\Desktop\Campus-Sostenible\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.78 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 2.14 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unable to write to 'ProjectSettings\GvhProjectSettings.xml' (System.IO.IOException: Sharing violation on path C:\Users\flore\Desktop\Campus-Sostenible\ProjectSettings\GvhProjectSettings.xml
   at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
@@ -140,43 +140,43 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 (Filename: /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs Line: 844)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  4.239 seconds
+- Completed reload, in  3.612 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4242ms)
-		BeginReloadAssembly (467ms)
+	ReloadAssembly (3613ms)
+		BeginReloadAssembly (396ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
+			DisableScriptedObjects (16ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (86ms)
-		EndReloadAssembly (3452ms)
-			LoadAssemblies (491ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (2892ms)
+			LoadAssemblies (421ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (912ms)
+			SetupTypeCache (682ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (291ms)
-			SetupLoadedEditorAssemblies (1667ms)
+			RebuildScriptCaches (120ms)
+			SetupLoadedEditorAssemblies (1624ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (54ms)
+				InitializePlatformSupportModulesInManaged (56ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (295ms)
-				ProcessInitializeOnLoadAttributes (1230ms)
-				ProcessInitializeOnLoadMethodAttributes (48ms)
-				AfterProcessingInitializeOnLoad (36ms)
+				BeforeProcessingInitializeOnLoad (176ms)
+				ProcessInitializeOnLoadAttributes (1282ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (42ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.93 seconds
-Refreshing native plugins compatible for Editor in 3.61 ms, found 6 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 1.85 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3388 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 120 unused Assets / (58.1 KB). Loaded Objects now: 3778.
 Memory consumption went from 125.9 MB to 125.9 MB.
-Total: 16.702500 ms (FindLiveObjects: 2.595900 ms CreateObjectMapping: 3.000100 ms MarkObjects: 10.709300 ms  DeleteObjects: 0.393600 ms)
+Total: 7.613100 ms (FindLiveObjects: 0.554300 ms CreateObjectMapping: 0.171500 ms MarkObjects: 6.304000 ms  DeleteObjects: 0.579400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -191,41 +191,199 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 413.709870 seconds.
-  path: Assets/Scenes/Sprites/Intfz info
-  artifactKey: Guid(b97c5e2cd82eaff4696138b4549486a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Sprites/Intfz info using Guid(b97c5e2cd82eaff4696138b4549486a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7605e42e4768757684484b21fffb2d7b') in 0.018597 seconds 
+  Time since last request: 2575.676956 seconds.
+  path: Assets/Scenes/Sprites Tina/fotos fuente
+  artifactKey: Guid(66ec44ff997974642a8290cfe996a989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sprites Tina/fotos fuente using Guid(66ec44ff997974642a8290cfe996a989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51e9ad773153c17ea8d93fd36b69051f') in 0.013079 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.302537 seconds.
-  path: Assets/Scenes/Sprites/barra.png
-  artifactKey: Guid(5b60c0d68fae4364a9b7b7b2ab32ce55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Sprites/barra.png using Guid(5b60c0d68fae4364a9b7b7b2ab32ce55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa353241be159bb7d672a9a63309142a') in 0.413764 seconds 
+  Time since last request: 67.546802 seconds.
+  path: Assets/Scenes/Sprites Tina/Group 31.png
+  artifactKey: Guid(f54d49bf9199c414cbb8794096480a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sprites Tina/Group 31.png using Guid(f54d49bf9199c414cbb8794096480a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98d31f49ecc5e7a4f721c147c278a997') in 0.172374 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.473784 seconds.
-  path: Assets/Scenes/Sprites/Group 34.png
-  artifactKey: Guid(b8ffd3cec5a69524caf98c741a8fda49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Sprites/Group 34.png using Guid(b8ffd3cec5a69524caf98c741a8fda49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '003983d26f3b965f926c5e356a1e24e1') in 0.127618 seconds 
+  Time since last request: 24.566301 seconds.
+  path: Assets/Scenes/Sprites Tina/fotos fuente/20240402_172528899_iOS 1.png
+  artifactKey: Guid(89198608d608c194b990b12e7b260488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sprites Tina/fotos fuente/20240402_172528899_iOS 1.png using Guid(89198608d608c194b990b12e7b260488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3646c60d7cef00b8b36154f7f32662e8') in 0.050839 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.381046 seconds.
-  path: Assets/Scenes/Sprites/icono info.png
-  artifactKey: Guid(1b0711c3cde727c4dbefbdac8e09574f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Sprites/icono info.png using Guid(1b0711c3cde727c4dbefbdac8e09574f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32bf1cc2745f1990e6019da75200634d') in 0.137671 seconds 
+  Time since last request: 0.000034 seconds.
+  path: Assets/Scenes/Sprites Tina/fotos fuente/Fuente UAO 2.png
+  artifactKey: Guid(5b0dd7ebdb0d5b54ca2e0189eea0003f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sprites Tina/fotos fuente/Fuente UAO 2.png using Guid(5b0dd7ebdb0d5b54ca2e0189eea0003f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df4c0677d0f5d908b29209ab635c4e9') in 0.034505 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000101 seconds.
-  path: Assets/Scenes/Sprites/Group 66.png
-  artifactKey: Guid(1718c243d2c2a4048b384bd16da0abec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Sprites/Group 66.png using Guid(1718c243d2c2a4048b384bd16da0abec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d90024cceb21325e20dfd7a08ace84c') in 0.049518 seconds 
+  Time since last request: 42.506754 seconds.
+  path: Assets/Scenes/Sprites Tina/fotos fuente/20240402_172528899_iOS 1.png
+  artifactKey: Guid(89198608d608c194b990b12e7b260488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sprites Tina/fotos fuente/20240402_172528899_iOS 1.png using Guid(89198608d608c194b990b12e7b260488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d221a211ddffc1898f6b092278879b3') in 0.194899 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/Scenes/Sprites/Rectangle 46.png
-  artifactKey: Guid(2416c7b0ea65c5a41a2069fb330a0acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Sprites/Rectangle 46.png using Guid(2416c7b0ea65c5a41a2069fb330a0acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b6f50aadf5819d857009a83e720a2b8') in 0.055924 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 0.000108 seconds.
+  path: Assets/Scenes/Sprites Tina/fotos fuente/Fuente UAO 2.png
+  artifactKey: Guid(5b0dd7ebdb0d5b54ca2e0189eea0003f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sprites Tina/fotos fuente/Fuente UAO 2.png using Guid(5b0dd7ebdb0d5b54ca2e0189eea0003f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e8550165a43bfb49a89668cf04ba7a1') in 0.071572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 565.868506 seconds.
+  path: Assets/Scenes/Sprites Tina/fotos viveros
+  artifactKey: Guid(a87135441b438154c8be8d187e5d046c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sprites Tina/fotos viveros using Guid(a87135441b438154c8be8d187e5d046c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c3f2fec6a3cb11adb5cd0cbf62c7a7d') in 0.013327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 314.080949 seconds.
+  path: Assets/Scenes/Sprites Tina/fotos viveros/Group 31-1.png
+  artifactKey: Guid(092ab853e082dab4da3ec2aa20c15cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sprites Tina/fotos viveros/Group 31-1.png using Guid(092ab853e082dab4da3ec2aa20c15cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90de3c5fde62591b75c6246b8f093d24') in 0.028218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.881759 seconds.
+  path: Assets/Scenes/Sprites Tina/fotos viveros/image 103-1.png
+  artifactKey: Guid(b0661119f9290b442b0223a4eeafb0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sprites Tina/fotos viveros/image 103-1.png using Guid(b0661119f9290b442b0223a4eeafb0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79a20d762697013d37dfdce59173fb5d') in 0.046016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Scenes/Sprites Tina/fotos viveros/Vivero UAO 2.png
+  artifactKey: Guid(5039ea0bfffa10a4da2b4a56f8eaf293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sprites Tina/fotos viveros/Vivero UAO 2.png using Guid(5039ea0bfffa10a4da2b4a56f8eaf293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed89dc32a1ca85d0dcface73fbd03a26') in 0.038331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.154038 seconds.
+  path: Assets/Scenes/Sprites Tina/fotos viveros/image 103-1.png
+  artifactKey: Guid(b0661119f9290b442b0223a4eeafb0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sprites Tina/fotos viveros/image 103-1.png using Guid(b0661119f9290b442b0223a4eeafb0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04ba9c91b1c325a0d6a5e1b1dfde6faf') in 0.116358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Scenes/Sprites Tina/fotos viveros/Vivero UAO 2.png
+  artifactKey: Guid(5039ea0bfffa10a4da2b4a56f8eaf293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sprites Tina/fotos viveros/Vivero UAO 2.png using Guid(5039ea0bfffa10a4da2b4a56f8eaf293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ec40fa9a8c9b4303ef97bd415e38d73') in 0.144279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 495.671727 seconds.
+  path: Assets/Scenes/Sprites Tina/fotos compostaje/Compostaje 2-2.png
+  artifactKey: Guid(6707108738bdd364a8df626db6128f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sprites Tina/fotos compostaje/Compostaje 2-2.png using Guid(6707108738bdd364a8df626db6128f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4d5cc23446f051ece1b2f52193321d9') in 0.063304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.004968 seconds.
+  path: Assets/Scenes/Sprites Tina/fotos compostaje/Group 31-2.png
+  artifactKey: Guid(e48aae66f0729334395d8bcb95c226ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sprites Tina/fotos compostaje/Group 31-2.png using Guid(e48aae66f0729334395d8bcb95c226ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5a127bff61d6397e3bfde3196002f61') in 0.348859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Scenes/Sprites Tina/fotos compostaje/Compostaje 2.png
+  artifactKey: Guid(a47cffeb4af770843916727324f9d752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sprites Tina/fotos compostaje/Compostaje 2.png using Guid(a47cffeb4af770843916727324f9d752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8097fbaa40a94d596b6cfee9f32ab0f0') in 0.215756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.724771 seconds.
+  path: Assets/Scenes/Sprites Tina/fotos compostaje/Compostaje 2-2.png
+  artifactKey: Guid(6707108738bdd364a8df626db6128f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sprites Tina/fotos compostaje/Compostaje 2-2.png using Guid(6707108738bdd364a8df626db6128f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e9e1b6ecbc75085db174a2f26e44a8') in 0.185490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 640.503171 seconds.
+  path: Assets/Scenes/Sprites Tina/fotos viveros/3 3.png
+  artifactKey: Guid(6e098a555cff42b4c824726d39ff0e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sprites Tina/fotos viveros/3 3.png using Guid(6e098a555cff42b4c824726d39ff0e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20c514ed3f610a9ebbbdb20181a74338') in 0.035923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Scenes/Sprites Tina/fotos viveros/3 5.png
+  artifactKey: Guid(54837faa8ca3ebb459cd009aa46dd051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sprites Tina/fotos viveros/3 5.png using Guid(54837faa8ca3ebb459cd009aa46dd051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84842f2c8acbf76a607cd35bbc8e0513') in 0.035035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 268.513687 seconds.
+  path: Assets/Scenes/Sprites Tina/PTAP
+  artifactKey: Guid(1de22fffcdba7cf40be7fe148592cc1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sprites Tina/PTAP using Guid(1de22fffcdba7cf40be7fe148592cc1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd885155f20afc2edbf5d7078546c4ceb') in 0.010980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.713079 seconds.
+  path: Assets/Scenes/Sprites Tina/PTAP/Group 31.png
+  artifactKey: Guid(52047d5e17d158e43a1d81bb6c12c4a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sprites Tina/PTAP/Group 31.png using Guid(52047d5e17d158e43a1d81bb6c12c4a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda0daa33ba3fd5d92e150c908b0c6a8') in 0.035169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Scenes/Sprites Tina/PTAP/PTAP 2 (2).png
+  artifactKey: Guid(5ea884e2b87f60145a0880297bc22f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sprites Tina/PTAP/PTAP 2 (2).png using Guid(5ea884e2b87f60145a0880297bc22f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '600a4a6294ec8364b8e3d9c17f3e5c2e') in 0.047133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.691491 seconds.
+  path: Assets/Scenes/Sprites Tina/PTAP/PTAP 2 (2).png
+  artifactKey: Guid(5ea884e2b87f60145a0880297bc22f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sprites Tina/PTAP/PTAP 2 (2).png using Guid(5ea884e2b87f60145a0880297bc22f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3ca89a5b0c2f7b86e70c8944bc6cfd7') in 0.067285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009702 seconds.
+  path: Assets/Scenes/Sprites Tina/PTAP/Group 31.png
+  artifactKey: Guid(52047d5e17d158e43a1d81bb6c12c4a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sprites Tina/PTAP/Group 31.png using Guid(52047d5e17d158e43a1d81bb6c12c4a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fc4206e6740c1337c5ba6afc28f5e9f') in 0.044724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Scenes/Sprites Tina/PTAP/PTAP 2.png
+  artifactKey: Guid(5748c0ee84646c64c95d30f81b2345dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sprites Tina/PTAP/PTAP 2.png using Guid(5748c0ee84646c64c95d30f81b2345dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3013c387d41363362dc2f0b0f822d242') in 0.051307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 326.091609 seconds.
+  path: Assets/Scenes/Sprites Tina/fotos compostaje/Compostaje 2.png
+  artifactKey: Guid(a47cffeb4af770843916727324f9d752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sprites Tina/fotos compostaje/Compostaje 2.png using Guid(a47cffeb4af770843916727324f9d752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5db4b3c297165154cf62c541f9902a2b') in 0.056101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.047841 seconds.
+  path: Assets/Scenes/Sprites Tina/fotos compostaje/3 6.png
+  artifactKey: Guid(96880166997198746acc555b76aa4680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sprites Tina/fotos compostaje/3 6.png using Guid(96880166997198746acc555b76aa4680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c6cde980757a2dd3add3b5606e1fb10') in 0.048046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Scenes/Sprites Tina/fotos compostaje/3 8.png
+  artifactKey: Guid(fffd8ef5467e1d046a3d1e28b7a9f0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sprites Tina/fotos compostaje/3 8.png using Guid(fffd8ef5467e1d046a3d1e28b7a9f0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a120443e7196a07cc6cf0cbbeb78f80') in 0.029655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 160.970191 seconds.
+  path: Assets/Scenes/Sprites Tina/PTAR
+  artifactKey: Guid(771df766389374b49b2a5c6d1464634a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sprites Tina/PTAR using Guid(771df766389374b49b2a5c6d1464634a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '940d668d13950dd15df911f6f2647f06') in 0.005391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 132.299633 seconds.
+  path: Assets/Scenes/Sprites Tina/PTAR/20240402_173258476_iOS 1.png
+  artifactKey: Guid(597fd2c3196f15740ae4752cb03ac15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sprites Tina/PTAR/20240402_173258476_iOS 1.png using Guid(597fd2c3196f15740ae4752cb03ac15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8807948d928873b971ced0c55bf1e9fc') in 0.048874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Scenes/Sprites Tina/PTAR/Group 31.png
+  artifactKey: Guid(758dcda090e2e7e4ebc426f52cb261d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sprites Tina/PTAR/Group 31.png using Guid(758dcda090e2e7e4ebc426f52cb261d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0155dc840f51eb44d85040b4f1e324d') in 0.046169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.686037 seconds.
+  path: Assets/Scenes/Sprites Tina/PTAR/Group 31.png
+  artifactKey: Guid(758dcda090e2e7e4ebc426f52cb261d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sprites Tina/PTAR/Group 31.png using Guid(758dcda090e2e7e4ebc426f52cb261d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '990254885e7c26448093b2553cf6bb45') in 0.045237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.084820 seconds.
+  path: Assets/Scenes/Sprites Tina/PTAR/20240402_173258476_iOS 1.png
+  artifactKey: Guid(597fd2c3196f15740ae4752cb03ac15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sprites Tina/PTAR/20240402_173258476_iOS 1.png using Guid(597fd2c3196f15740ae4752cb03ac15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f61286f10a481fa84a1f260102762cf') in 0.072211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 241.709671 seconds.
+  path: Assets/Scenes/Sprites Tina/fotos compostaje/3 6.png
+  artifactKey: Guid(8915dfd0052063f4fbce35ed98b56316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sprites Tina/fotos compostaje/3 6.png using Guid(8915dfd0052063f4fbce35ed98b56316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '435876fa77ecd2b5f662987d607416f5') in 0.032129 seconds 

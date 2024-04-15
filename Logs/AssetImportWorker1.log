@@ -15,7 +15,7 @@ C:/Users/flore/Desktop/Campus-Sostenible
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-50139
+50228
 Successfully changed project path to: C:/Users/flore/Desktop/Campus-Sostenible
 C:/Users/flore/Desktop/Campus-Sostenible
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/flore/Desktop/Campus-Sostenible
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [18568] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2681342205 [EditorId] 2681342205 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-824KJ6Q) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [7280] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3166266829 [EditorId] 3166266829 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-824KJ6Q) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [18568] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2681342205 [EditorId] 2681342205 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-824KJ6Q) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [7280] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3166266829 [EditorId] 3166266829 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-824KJ6Q) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 438.28 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 266.31 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.21f1 (1b156197d683)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Resources/UnitySubsystems
@@ -67,93 +67,93 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56692
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56200
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.051800 seconds.
+Registered in 0.027182 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 2213 ms
-Refreshing native plugins compatible for Editor in 210.60 ms, found 6 plugins.
+Android Extension - Scanning For ADB Devices 1653 ms
+Refreshing native plugins compatible for Editor in 166.17 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  7.039 seconds
+- Completed reload, in  7.416 seconds
 Domain Reload Profiling:
-	ReloadAssembly (7040ms)
-		BeginReloadAssembly (682ms)
+	ReloadAssembly (7417ms)
+		BeginReloadAssembly (241ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (5510ms)
-			LoadAssemblies (665ms)
+		EndReloadAssembly (6855ms)
+			LoadAssemblies (229ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1825ms)
+			SetupTypeCache (3785ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (101ms)
-			SetupLoadedEditorAssemblies (3289ms)
+			RebuildScriptCaches (116ms)
+			SetupLoadedEditorAssemblies (2423ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (2595ms)
+				InitializePlatformSupportModulesInManaged (1961ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (211ms)
-				BeforeProcessingInitializeOnLoad (4ms)
-				ProcessInitializeOnLoadAttributes (295ms)
-				ProcessInitializeOnLoadMethodAttributes (184ms)
+				RefreshPlugins (166ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (191ms)
+				ProcessInitializeOnLoadMethodAttributes (102ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.071365 seconds.
+Registered in 0.048684 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\flore\Desktop\Campus-Sostenible\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\flore\Desktop\Campus-Sostenible\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.30 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 1.92 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.238 seconds
+- Completed reload, in  3.607 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4240ms)
-		BeginReloadAssembly (468ms)
+	ReloadAssembly (3609ms)
+		BeginReloadAssembly (407ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
+			DisableScriptedObjects (15ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (86ms)
-		EndReloadAssembly (3450ms)
-			LoadAssemblies (491ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (2891ms)
+			LoadAssemblies (432ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (891ms)
+			SetupTypeCache (692ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (262ms)
-			SetupLoadedEditorAssemblies (1701ms)
+			RebuildScriptCaches (125ms)
+			SetupLoadedEditorAssemblies (1615ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (55ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (289ms)
+				InitializePlatformSupportModulesInManaged (52ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (185ms)
 				ProcessInitializeOnLoadAttributes (1271ms)
-				ProcessInitializeOnLoadMethodAttributes (45ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
 				AfterProcessingInitializeOnLoad (39ms)
-				EditorAssembliesLoaded (0ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.74 seconds
-Refreshing native plugins compatible for Editor in 3.48 ms, found 6 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 1.78 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3388 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 120 unused Assets / (58.1 KB). Loaded Objects now: 3778.
 Memory consumption went from 125.9 MB to 125.8 MB.
-Total: 13.732400 ms (FindLiveObjects: 1.464200 ms CreateObjectMapping: 1.692000 ms MarkObjects: 10.202800 ms  DeleteObjects: 0.368800 ms)
+Total: 8.166300 ms (FindLiveObjects: 0.660700 ms CreateObjectMapping: 0.205100 ms MarkObjects: 6.733100 ms  DeleteObjects: 0.565100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -168,36 +168,41 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 425.046153 seconds.
-  path: Assets/Scenes/Sprites/devolverse.png
-  artifactKey: Guid(d481b894027ac3e46948bd8eba070079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Sprites/devolverse.png using Guid(d481b894027ac3e46948bd8eba070079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32ce15431689f1a5acc601902d2acf4b') in 0.440791 seconds 
+  Time since last request: 2668.002377 seconds.
+  path: Assets/Scenes/Sprites Tina/fotos fuente/20240402_172722660_iOS 1.png
+  artifactKey: Guid(2cae824ce2691fc4c870d42e0aa46520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sprites Tina/fotos fuente/20240402_172722660_iOS 1.png using Guid(2cae824ce2691fc4c870d42e0aa46520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '156e12b971305e09d0798607d73078fb') in 0.207639 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.437514 seconds.
-  path: Assets/Scenes/Sprites/Group 31.png
-  artifactKey: Guid(a13a83cf27420074e829338858c39a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Sprites/Group 31.png using Guid(a13a83cf27420074e829338858c39a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93bd19bccd145e7b25afa7a76deb3fcf') in 0.156973 seconds 
+  Time since last request: 42.401175 seconds.
+  path: Assets/Scenes/Sprites Tina/fotos fuente/20240402_172722660_iOS 1.png
+  artifactKey: Guid(2cae824ce2691fc4c870d42e0aa46520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sprites Tina/fotos fuente/20240402_172722660_iOS 1.png using Guid(2cae824ce2691fc4c870d42e0aa46520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '311c911ba994ba74f086b18ca439e195') in 0.189951 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.350158 seconds.
-  path: Assets/Scenes/Sprites/Rectangle 30.png
-  artifactKey: Guid(f2d41ed8829134844a0ab0ccfcbb46e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Sprites/Rectangle 30.png using Guid(f2d41ed8829134844a0ab0ccfcbb46e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cddaf5fe9b90b10d3a07954470ced55d') in 0.156002 seconds 
+  Time since last request: 0.000426 seconds.
+  path: Assets/Scenes/Sprites Tina/fotos fuente/Group 31.png
+  artifactKey: Guid(f54d49bf9199c414cbb8794096480a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sprites Tina/fotos fuente/Group 31.png using Guid(f54d49bf9199c414cbb8794096480a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b8ad48dc7cd97bc04652a2291d55109') in 0.040462 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/Scenes/Sprites/¡Conoce más sobre el campus sostenible!.png
-  artifactKey: Guid(0cee0431fa4fc3842bafc52d0ef84c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Sprites/¡Conoce más sobre el campus sostenible!.png using Guid(0cee0431fa4fc3842bafc52d0ef84c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db825123648e028838ed707d7e028d92') in 0.049603 seconds 
+  Time since last request: 880.014929 seconds.
+  path: Assets/Scenes/Sprites Tina/fotos viveros/Group 31.png
+  artifactKey: Guid(96f33e9a7a4553649b00ae0b06f72270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sprites Tina/fotos viveros/Group 31.png using Guid(96f33e9a7a4553649b00ae0b06f72270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '514fecf938726c0aa794919451136859') in 0.030869 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Scenes/Sprites/Group 35.png
-  artifactKey: Guid(d257eb93d9a6484459d31b46a2f06937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Sprites/Group 35.png using Guid(d257eb93d9a6484459d31b46a2f06937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd10208a883e6b9b48c7073b7e61e0c75') in 0.046118 seconds 
+  Time since last request: 1.877973 seconds.
+  path: Assets/Scenes/Sprites Tina/fotos viveros/image 103.png
+  artifactKey: Guid(f06e5c1852020d04aa19e57dd0c0a115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sprites Tina/fotos viveros/image 103.png using Guid(f06e5c1852020d04aa19e57dd0c0a115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8479d4927299cf814730a4386d765d7f') in 0.053264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.201351 seconds.
+  path: Assets/Scenes/Sprites Tina/fotos viveros/image 103.png
+  artifactKey: Guid(f06e5c1852020d04aa19e57dd0c0a115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sprites Tina/fotos viveros/image 103.png using Guid(f06e5c1852020d04aa19e57dd0c0a115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a39ff302ee0bcb5516bcdb35b6fd37b4') in 0.163161 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0
