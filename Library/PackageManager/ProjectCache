@@ -5,7 +5,11 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< HEAD
+      ticks: 638484710687971675
+=======
       ticks: 638484677147992086
+>>>>>>> main
     m_Hash: 2081676248
   m_LockFileStatus:
     m_FilePath: C:/Users/carlo/OneDrive/Documentos/GitHub/Campus-Sostenible/Packages/packages-lock.json
@@ -13,7 +17,11 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< HEAD
+      ticks: 638484710687981647
+=======
       ticks: 638484677148002095
+>>>>>>> main
     m_Hash: 2408981072
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
