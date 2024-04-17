@@ -397,6 +397,7 @@
 "Assets/Scripts/Menu_Desplegable.cs"
 "Assets/Scripts/Minijuego.cs"
 "Assets/Scripts/Usuario.cs"
+"Assets/Sprites Tina/ControladorInterfaz.cs"
 -langversion:9.0
 
 /deterministic
