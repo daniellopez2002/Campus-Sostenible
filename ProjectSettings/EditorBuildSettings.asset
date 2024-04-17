@@ -5,10 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/TestConexionMobile.unity
     guid: db8bdb473739a634d91d4d4d0dbaba4e
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/TestConexionTotem.unity
     guid: 5ab14263d0c956d4d9dad53f03b3c127
   m_configObjects: {}
