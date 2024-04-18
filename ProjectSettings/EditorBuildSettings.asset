@@ -11,4 +11,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TestConexionTotem.unity
     guid: 5ab14263d0c956d4d9dad53f03b3c127
+  - enabled: 1
+    path: Assets/Scenes/Login.unity
+    guid: a482399e09f3d7f41adbe8a621325dd4
+  - enabled: 1
+    path: "Assets/Scenes/Inicio sesi\xF3n.unity"
+    guid: c80bce4a5a9a2b74c8307b6fffbc478f
+  - enabled: 1
+    path: Assets/Scenes/Homepage.unity
+    guid: 013d9c82a5417754ea7341667cd035b1
   m_configObjects: {}
